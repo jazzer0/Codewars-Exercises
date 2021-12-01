@@ -6,6 +6,6 @@ const convertCase = (str: string) => {
         let upperCase = word.charAt(0).toUpperCase()
         return upperCase + word.slice(1)
     })
-    return formattedStr
+    return formattedStr.join(" ")
 }
 console.log(convertCase("jazza ricardo firmino"));
